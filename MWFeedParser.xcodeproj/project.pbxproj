@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E510BD51860B71700111161 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E510BD41860B71700111161 /* Default-568h@2x.png */; };
-		1D3623260D0F684500981E51 /* MWFeedParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MWFeedParserAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
-		4C65F2EB12085ACE00606CFC /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F2EA12085ACE00606CFC /* GTMNSString+HTML.m */; };
-		4C65F318120863F800606CFC /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F317120863F800606CFC /* NSString+HTML.m */; };
-		4C661F44125E3F2D007F1792 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C661F43125E3F2D007F1792 /* NSDate+InternetDateTime.m */; };
-		4C661F8B125E50FA007F1792 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C661F8A125E50FA007F1792 /* Icon.png */; };
-		4CAD0E1211DA03BD0086F5F8 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD0E1111DA03BD0086F5F8 /* DetailTableViewController.m */; };
-		4CC89609119F0CED00ED61B6 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89604119F0CED00ED61B6 /* MWFeedParser.m */; };
-		4CC8960A119F0CED00ED61B6 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89606119F0CED00ED61B6 /* MWFeedInfo.m */; };
-		4CC8960B119F0CED00ED61B6 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89608119F0CED00ED61B6 /* MWFeedItem.m */; };
-		4CC8960F119F0CFB00ED61B6 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8960E119F0CFB00ED61B6 /* NSString+XMLEntities.m */; };
-		4CC89612119F0D0C00ED61B6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89611119F0D0C00ED61B6 /* RootViewController.m */; };
+		76061A9A1BDA88D900BE5F3A /* MWFeedParserKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76061A991BDA88D900BE5F3A /* MWFeedParserKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061A9F1BDA895300BE5F3A /* MWFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC89603119F0CED00ED61B6 /* MWFeedParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061AA01BDA895800BE5F3A /* MWFeedParser_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAA79C911A406890009078E /* MWFeedParser_Private.h */; };
+		76061AA11BDA89A900BE5F3A /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89604119F0CED00ED61B6 /* MWFeedParser.m */; };
+		76061AA21BDA89A900BE5F3A /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89606119F0CED00ED61B6 /* MWFeedInfo.m */; };
+		76061AA31BDA89A900BE5F3A /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC89608119F0CED00ED61B6 /* MWFeedItem.m */; };
+		76061AA41BDA89A900BE5F3A /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F317120863F800606CFC /* NSString+HTML.m */; };
+		76061AA51BDA89A900BE5F3A /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C661F43125E3F2D007F1792 /* NSDate+InternetDateTime.m */; };
+		76061AA61BDA89A900BE5F3A /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65F2EA12085ACE00606CFC /* GTMNSString+HTML.m */; };
+		76061AAD1BDA8A8600BE5F3A /* MWFeedInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC89605119F0CED00ED61B6 /* MWFeedInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061AAE1BDA8A8600BE5F3A /* MWFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC89607119F0CED00ED61B6 /* MWFeedItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061AAF1BDA8A8600BE5F3A /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C65F316120863F800606CFC /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061AB01BDA8A8600BE5F3A /* NSDate+InternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C661F42125E3F2D007F1792 /* NSDate+InternetDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76061AB11BDA8A8600BE5F3A /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C65F2E912085ACE00606CFC /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +28,6 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MWFeedParserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParserAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* MWFeedParserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParserAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* MWFeedParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWFeedParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* MWFeedParser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Prefix.pch; sourceTree = "<group>"; };
@@ -59,17 +54,17 @@
 		4CC8960E119F0CFB00ED61B6 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		4CC89610119F0D0C00ED61B6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		4CC89611119F0D0C00ED61B6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76061A971BDA88D900BE5F3A /* MWFeedParserKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWFeedParserKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76061A991BDA88D900BE5F3A /* MWFeedParserKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWFeedParserKit.h; sourceTree = "<group>"; };
+		76061A9B1BDA88D900BE5F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MWFeedParser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MWFeedParser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+		76061A931BDA88D900BE5F3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +84,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* MWFeedParser.app */,
+				76061A971BDA88D900BE5F3A /* MWFeedParserKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +96,7 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				76061A981BDA88D900BE5F3A /* MWFeedParserKit */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -195,25 +191,53 @@
 			name = App;
 			sourceTree = "<group>";
 		};
+		76061A981BDA88D900BE5F3A /* MWFeedParserKit */ = {
+			isa = PBXGroup;
+			children = (
+				76061A991BDA88D900BE5F3A /* MWFeedParserKit.h */,
+				76061A9B1BDA88D900BE5F3A /* Info.plist */,
+			);
+			path = MWFeedParserKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		76061A941BDA88D900BE5F3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76061AB11BDA8A8600BE5F3A /* GTMNSString+HTML.h in Headers */,
+				76061A9A1BDA88D900BE5F3A /* MWFeedParserKit.h in Headers */,
+				76061AAF1BDA8A8600BE5F3A /* NSString+HTML.h in Headers */,
+				76061AB01BDA8A8600BE5F3A /* NSDate+InternetDateTime.h in Headers */,
+				76061AA01BDA895800BE5F3A /* MWFeedParser_Private.h in Headers */,
+				76061AAE1BDA8A8600BE5F3A /* MWFeedItem.h in Headers */,
+				76061AAD1BDA8A8600BE5F3A /* MWFeedInfo.h in Headers */,
+				76061A9F1BDA895300BE5F3A /* MWFeedParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* MWFeedParser */ = {
+		76061A961BDA88D900BE5F3A /* MWFeedParserKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MWFeedParser" */;
+			buildConfigurationList = 76061A9E1BDA88D900BE5F3A /* Build configuration list for PBXNativeTarget "MWFeedParserKit" */;
 			buildPhases = (
-				1D60588D0D05DD3D006BFB54 /* Resources */,
-				1D60588E0D05DD3D006BFB54 /* Sources */,
-				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				76061A921BDA88D900BE5F3A /* Sources */,
+				76061A931BDA88D900BE5F3A /* Frameworks */,
+				76061A941BDA88D900BE5F3A /* Headers */,
+				76061A951BDA88D900BE5F3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MWFeedParser;
-			productName = MWFeedParser;
-			productReference = 1D6058910D05DD3D006BFB54 /* MWFeedParser.app */;
-			productType = "com.apple.product-type.application";
+			name = MWFeedParserKit;
+			productName = MWFeedParserKit;
+			productReference = 76061A971BDA88D900BE5F3A /* MWFeedParserKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,6 +247,11 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Michael Waterfall";
+				TargetAttributes = {
+					76061A961BDA88D900BE5F3A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MWFeedParser" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -239,78 +268,145 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* MWFeedParser */,
+				76061A961BDA88D900BE5F3A /* MWFeedParserKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+		76061A951BDA88D900BE5F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				0E510BD51860B71700111161 /* Default-568h@2x.png in Resources */,
-				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				4C661F8B125E50FA007F1792 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+		76061A921BDA88D900BE5F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* MWFeedParserAppDelegate.m in Sources */,
-				4CC89609119F0CED00ED61B6 /* MWFeedParser.m in Sources */,
-				4CC8960A119F0CED00ED61B6 /* MWFeedInfo.m in Sources */,
-				4CC8960B119F0CED00ED61B6 /* MWFeedItem.m in Sources */,
-				4CC8960F119F0CFB00ED61B6 /* NSString+XMLEntities.m in Sources */,
-				4CC89612119F0D0C00ED61B6 /* RootViewController.m in Sources */,
-				4CAD0E1211DA03BD0086F5F8 /* DetailTableViewController.m in Sources */,
-				4C65F2EB12085ACE00606CFC /* GTMNSString+HTML.m in Sources */,
-				4C65F318120863F800606CFC /* NSString+HTML.m in Sources */,
-				4C661F44125E3F2D007F1792 /* NSDate+InternetDateTime.m in Sources */,
+				76061AA31BDA89A900BE5F3A /* MWFeedItem.m in Sources */,
+				76061AA11BDA89A900BE5F3A /* MWFeedParser.m in Sources */,
+				76061AA41BDA89A900BE5F3A /* NSString+HTML.m in Sources */,
+				76061AA21BDA89A900BE5F3A /* MWFeedInfo.m in Sources */,
+				76061AA51BDA89A900BE5F3A /* NSDate+InternetDateTime.m in Sources */,
+				76061AA61BDA89A900BE5F3A /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1D6058940D05DD3E006BFB54 /* Debug */ = {
+		76061A9C1BDA88D900BE5F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MWFeedParser_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "MWFeedParser-Info.plist";
-				PRODUCT_NAME = MWFeedParser;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MWFeedParserKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MWFeedParserKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1D6058950D05DD3E006BFB54 /* Release */ = {
+		76061A9D1BDA88D900BE5F3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MWFeedParser_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "MWFeedParser-Info.plist";
-				PRODUCT_NAME = MWFeedParser;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MWFeedParserKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MWFeedParserKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -349,11 +445,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MWFeedParser" */ = {
+		76061A9E1BDA88D900BE5F3A /* Build configuration list for PBXNativeTarget "MWFeedParserKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D6058940D05DD3E006BFB54 /* Debug */,
-				1D6058950D05DD3E006BFB54 /* Release */,
+				76061A9C1BDA88D900BE5F3A /* Debug */,
+				76061A9D1BDA88D900BE5F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
